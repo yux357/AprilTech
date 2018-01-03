@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+    <swiper class="top-banner" indicator-dots="true" autoplay="true" interval="5000" duration="500">
+      <block wx:for="{{imgUrls}}" class="top-banner__block">
+        <swiper-item class="top-banner__item">
+          <image src="{{item}}" class="slide-image top-banner__image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <ul>
+      <li></li>
+    </ul>
+</view>

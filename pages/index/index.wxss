@@ -1,0 +1,23 @@
+/**index.wxss**/
+
+.container{
+  padding: 0;
+}
+
+.top-banner{
+  width: 750rpx;
+  height: 223.5rpx;
+}
+
+.top-banner__block{
+  width: 100%;
+}
+
+.top-banner__item{
+  width: 100%;
+}
+
+.slide-image{
+  width: 750rpx;
+  height: 223.5rpx;
+}
